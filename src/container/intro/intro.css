@@ -1,0 +1,126 @@
+.intro {
+   display: flex;
+   justify-content: space-between;
+}
+
+.intro_content {
+   flex: .75;
+   background-color: #FFFAD0;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: left;
+   padding-left: 40px;
+}
+
+.intro_content h2 {
+   color: #00A79D;
+   font-family: var(--ff-nunito);
+   font-weight: 400;
+   font-size: 18px;
+   text-transform: uppercase;
+}
+
+.intro_content h1 {
+   margin: 0;
+   font-family: var(--ff-bebas);
+   font-weight: bold;
+   font-size: 80px;
+   text-transform: uppercase;
+   color: var(--color-heading);
+}
+
+.intro_content p {
+   margin: 0;
+   font-family: var(--ff-nunito);
+   font-weight: 400;
+   font-size: 35px;
+   text-transform: uppercase;
+   color: #FF9A00;
+}
+
+.intro_content button {
+   margin: 20px 0;
+   background: linear-gradient(to right, #0047FF, #EC00E2);
+   border: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 10px 0;
+   max-width: 176px;
+   border-radius: 3px;
+
+   font-family: var(--ff-nunito);
+   font-style: normal;
+   font-weight: normal;
+   text-transform: uppercase;
+   color: #FFFFFF;
+   transition: background 1s ease;
+}
+
+.intro_content button:hover {
+   background: var(--color-heading);
+}
+
+.intro_content button p {
+   margin-right: 5px;
+   font-size: 16px;
+   color: #fff;
+}
+
+.intro_image {
+   position: relative;
+   flex: 1;
+   background: linear-gradient(108.22deg, #FBFF41 -0.67%, #EC00E2 100%);
+   padding: 30px;
+}
+
+.intro_image-main {
+   width: 100%;
+   height: 100%;
+}
+
+.intro_image p {
+   position: absolute;
+   color: #fff;
+   font-family: var(--ff-nunito);
+   right: 20px;
+   bottom: 200px;
+   transform: rotateZ(90deg);
+   font-size: 16px;
+}
+
+.intro_image-line {
+   position: absolute;
+   background-color: #fff;
+   height: 50px;
+   width: 1px;
+   right: 62px;
+   bottom: 105px;
+}
+
+.intro_image-mouse {
+   position: absolute;
+   bottom: 65px;
+   right: 57px;
+}
+
+.intro_image-social-icons {
+   position: absolute;
+   bottom: 0;
+   right: 0;
+   background-color: #F036D8;
+   z-index: 100;
+}
+
+.intro_image-social-icons-each {
+   color: #fff;
+   height: 18px;
+   width: 18px;
+   padding: 10px;
+}
+
+.intro_image-social-icons-each:hover {
+   color: var(--color-heading);
+   transition: color .3s ease;
+}
